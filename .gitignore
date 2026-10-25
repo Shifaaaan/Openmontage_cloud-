@@ -1,0 +1,22 @@
+# Never commit provider credentials
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node / generated dependencies
+node_modules/
+
+# Local upstream checkout and render outputs
+/OpenMontage/
+/renders/
+/projects/*/renders/
+/projects/*/assets/generated/
